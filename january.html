@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/calendar.css" />
+    <title>DAILY SHOWERS &amp; Proudly Designed &amp; Developed By KPIE Technologies</title>
+</head>
+
+<body>
+
+	<div style="height: 400px; background-color: #efefef; padding: 10px; -webkit-border-radius: 12px; -moz-border-radius: 12px; margin-right: 2px">
+		<h3 style="text-align: center; background-color: white; -webkit-border-radius: 10px; -moz-border-radius: 10px; margin-top: 0px; margin-bottom: 20px; padding: 8px">
+          DAILY SHOWERS 2017
+        </h3>
+		<div>
+			<ul class="weekdays">
+				<h4 align="center">
+					JANUARY 2017
+				</h4>
+			  
+			</ul>
+
+			<ul class="days"> 
+			  <li><span class="active"><a href="jan1.html">1</span></a></li>
+			  <li><a href="jan2.html">2</a></li>
+			  <li><a href="jan3.html">3</a></li>
+			  <li><a href="jan4.html">4</a></li>
+			  <li><a href="jan5.html">5</a></li>
+			  <li><a href="jan6.html">6</a></li>
+			  <li><a href="jan7.html">7</a></li>
+			  <li><a href="jan8.html">8</a></li>
+			  <li><a href="jan9.html">9</a></li>
+			  <li><a href="jan10.html">10</a></li>
+			  <li><a href="jan11.html">11</a></li>
+			  <li><a href="jan12.html">12</a></li>
+			  <li><a href="jan13.html">13</a></li>
+			  <li><a href="jan14.html">14</a></li>
+			  <li><a href="jan15.html">15</a></li>
+			  <li><a href="jan16.html">16</a></li>
+			  <li><a href="jan17.html">17</a></li>
+			  <li><a href="jan18.html">18</a></li>
+			  <li><a href="jan19.html">19</a></li>
+			  <li><a href="jan20.html">20</a></li>
+			  <li><a href="jan21.html">21</a></li>
+			  <li><a href="jan22.html">22</a></li>
+			  <li><a href="jan23.html">23</a></li>
+			  <li><a href="jan24.html">24</a></li>
+			  <li><a href="jan25.html">25</a></li>
+			  <li><a href="jan26.html">26</a></li>
+			  <li><a href="jan27.html">27</a></li>
+			  <li><a href="jan28.html">28</a></li>
+			  <li><a href="jan29.html">29</a></li>
+			  <li><a href="jan30.html">30</a></li>
+			  <li><a href="jan31.html">31</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div>
+		<p>
+			<script>
+
+
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+document.write("<small><font color='000000' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small>")
+
+</script>
+
+<p align="center"><font face="arial, helvetica" size="-2">You have seen today's date</font><br>
+<font face="arial, helvetica" size="-2">Click the date on the Calendar to READ!<br /><a href="tel://+2347035705023">KPIE Techno!ogies Inc</a></font></p>
+			<h4 align="center">...</h4>
+		</p>
+	</div>
+
+	<div class="month"> 
+	  <ul>
+		
+		  <blockquote style="font-size:16px; color: #ffffff">Select today's date (the numbers) from the calendar above to read the inspirational quote of the day</blockquote>
+		
+	  </ul>
+	</div>
+	
+	<div>
+		<p>
+			<h4 align="center">...</h4>
+		</p>
+	</div>
+
+	<div class="weekdays">
+		<div>
+		<p>
+			<h4 align="center"> <strong><a href="index.html"><< HOME</a> | <a href="https://play.google.com/store/apps/details?id=com.KpieTechnologies.DailyShowers2017PAID">FULL VERSION >></a></strong> </h4>
+		</p>
+	</div>
+	  
+	</div>
+
+
+</body>
+</html>
+
